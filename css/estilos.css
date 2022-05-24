@@ -91,10 +91,11 @@ body{
 }
 .contenido__servicios{
 	display: flex;
+	flex-wrap: wrap;
+
 	justify-content: center;
 	align-content: center;
 	padding: 20px;
-	padding-top: 100px;
 }
 .contenedor__items{
 	display: flex;
@@ -109,6 +110,7 @@ body{
 	box-sizing: border-box;
 }
 .item img{
+	display: flex;
 	width: 100%;
 	padding: 20px;
 }
@@ -192,6 +194,17 @@ body{
 	background-color: grey;
 	padding: 120px;
 }
+.texto__container__form__contacto{
+	text-align: center;
+	padding: 100px;
+}
+.form__container__home p-4{
+	align-content: center;
+	padding: 100px;
+}
+.texto__container__form__home{
+	text-align: center;
+	padding: 100px;
 
 
 
